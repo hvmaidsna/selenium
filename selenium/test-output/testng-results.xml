@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85275" started-at="2020-05-15T09:10:26Z" finished-at="2020-05-15T09:11:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="85275" started-at="2020-05-15T09:10:26Z" finished-at="2020-05-15T09:11:51Z">
+      <class name="maiho.selenium.DynamicTable">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="beforeTest" is-config="true" duration-ms="52541" started-at="2020-05-15T09:10:26Z" finished-at="2020-05-15T09:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:maiho.selenium.guru99LoginTest@617faa95]" name="beforeTest" is-config="true" duration-ms="25629" started-at="2020-05-15T09:11:18Z" finished-at="2020-05-15T09:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="maxValueCurrentPrice()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="maxValueCurrentPrice" duration-ms="1096" started-at="2020-05-15T09:11:44Z" finished-at="2020-05-15T09:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxValueCurrentPrice -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="testEasy" duration-ms="32" started-at="2020-05-15T09:11:45Z" finished-at="2020-05-15T09:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="afterTest" is-config="true" duration-ms="925" started-at="2020-05-15T09:11:49Z" finished-at="2020-05-15T09:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.guru99LoginTest@617faa95]" name="afterTest" is-config="true" duration-ms="678" started-at="2020-05-15T09:11:50Z" finished-at="2020-05-15T09:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- maiho.selenium.DynamicTable -->
+      <class name="maiho.selenium.guru99LoginTest">
+        <test-method status="PASS" signature="resetTest()[pri:0, instance:maiho.selenium.guru99LoginTest@617faa95]" name="resetTest" duration-ms="438" started-at="2020-05-15T09:11:45Z" finished-at="2020-05-15T09:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTest -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:maiho.selenium.guru99LoginTest@617faa95]" name="loginTest" duration-ms="3825" started-at="2020-05-15T09:11:45Z" finished-at="2020-05-15T09:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="verifyMangeID()[pri:2, instance:maiho.selenium.guru99LoginTest@617faa95]" name="verifyMangeID" duration-ms="39" started-at="2020-05-15T09:11:49Z" finished-at="2020-05-15T09:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMangeID -->
+      </class> <!-- maiho.selenium.guru99LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
