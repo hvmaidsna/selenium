@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="10" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="maiho.selenium.iFrameTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testIFrame"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- maiho.selenium.iFrameTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
