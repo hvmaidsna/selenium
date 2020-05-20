@@ -2,11 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="classes" thread-count="10">
 	<parameter name="browser" value="Chrome" />
-	<test name="Test">
+	<!-- <test name="Test"> <classes> <class name="maiho.selenium.DynamicTableTest"></class> 
+		<class name="maiho.selenium.guru99LoginTest"></class> <class name="maiho.selenium.iFrameTest"></class> 
+		</classes> </test> -->
+
+	<test name="screenshots">
+		<parameter name="destFolderPath" value="/Users/mba0298p/Documents/AsianTech/Tool/Selenium/Advanceted/PIC/Screenshot" />
+		<parameter name="srcFolderPath" value="/Users/mba0298p/Documents/AsianTech/Tool/Selenium/Advanceted/PIC/src" />
 		<classes>
-			<class name="maiho.selenium.DynamicTableTest"></class>
-			<class name="maiho.selenium.guru99LoginTest"></class>
-			<class name="maiho.selenium.iFrameTest"></class>
+			<class name="maiho.selenium.ScreenShotsTest">
+			</class>
 		</classes>
-	</test> <!-- Test -->
+	</test>
 </suite> <!-- Suite -->

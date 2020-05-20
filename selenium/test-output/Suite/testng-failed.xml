@@ -2,15 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <parameter name="browser" value="Chrome"/>
-  <test thread-count="10" name="Test(failed)" parallel="classes">
+  <test thread-count="10" name="screenshots(failed)" parallel="classes">
+    <parameter name="destFolderPath" value="/Users/mba0298p/Documents/AsianTech/Tool/Selenium/Advanceted/PIC/Screenshot"/>
+    <parameter name="srcFolderPath" value="/Users/mba0298p/Documents/AsianTech/Tool/Selenium/Advanceted/PIC/src"/>
     <classes>
-      <class name="maiho.selenium.iFrameTest">
+      <class name="maiho.selenium.ScreenShotsTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="testIFrame"/>
+          <include name="elementScrShotTestByAshot" invocation-numbers="0"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- maiho.selenium.iFrameTest -->
+      </class> <!-- maiho.selenium.ScreenShotsTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- screenshots(failed) -->
 </suite> <!-- Failed suite [Suite] -->

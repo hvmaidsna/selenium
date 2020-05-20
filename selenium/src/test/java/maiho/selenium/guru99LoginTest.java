@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
