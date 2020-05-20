@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <parameter name="browser" value="Firefox"/>
+  <parameter name="browser" value="Chrome"/>
   <test thread-count="10" name="Test(failed)" parallel="classes">
     <classes>
       <class name="maiho.selenium.iFrameTest">
@@ -11,13 +11,6 @@
           <include name="afterTest"/>
         </methods>
       </class> <!-- maiho.selenium.iFrameTest -->
-      <class name="maiho.selenium.guru99LoginTest">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="verifyMangeID"/>
-        </methods>
-      </class> <!-- maiho.selenium.guru99LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
