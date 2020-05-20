@@ -1,51 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="85275" started-at="2020-05-15T09:10:26Z" finished-at="2020-05-15T09:11:51Z">
+  <suite name="Suite" duration-ms="37367" started-at="2020-05-20T07:10:00Z" finished-at="2020-05-20T07:10:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="85275" started-at="2020-05-15T09:10:26Z" finished-at="2020-05-15T09:11:51Z">
-      <class name="maiho.selenium.DynamicTable">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="beforeTest" is-config="true" duration-ms="52541" started-at="2020-05-15T09:10:26Z" finished-at="2020-05-15T09:11:18Z">
+    <test name="Test" duration-ms="37367" started-at="2020-05-20T07:10:00Z" finished-at="2020-05-20T07:10:37Z">
+      <class name="maiho.selenium.iFrameTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:maiho.selenium.iFrameTest@68c4039c]" name="beforeTest" is-config="true" duration-ms="4818" started-at="2020-05-20T07:10:00Z" finished-at="2020-05-20T07:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:maiho.selenium.guru99LoginTest@617faa95]" name="beforeTest" is-config="true" duration-ms="25629" started-at="2020-05-15T09:11:18Z" finished-at="2020-05-15T09:11:44Z">
+        <test-method status="PASS" signature="testIFrame()[pri:0, instance:maiho.selenium.iFrameTest@68c4039c]" name="testIFrame" duration-ms="28356" started-at="2020-05-20T07:10:04Z" finished-at="2020-05-20T07:10:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="maxValueCurrentPrice()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="maxValueCurrentPrice" duration-ms="1096" started-at="2020-05-15T09:11:44Z" finished-at="2020-05-15T09:11:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- maxValueCurrentPrice -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="testEasy" duration-ms="32" started-at="2020-05-15T09:11:45Z" finished-at="2020-05-15T09:11:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.DynamicTable@7e0b0338]" name="afterTest" is-config="true" duration-ms="925" started-at="2020-05-15T09:11:49Z" finished-at="2020-05-15T09:11:50Z">
+        </test-method> <!-- testIFrame -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.iFrameTest@68c4039c]" name="afterTest" is-config="true" duration-ms="274" started-at="2020-05-20T07:10:33Z" finished-at="2020-05-20T07:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.guru99LoginTest@617faa95]" name="afterTest" is-config="true" duration-ms="678" started-at="2020-05-15T09:11:50Z" finished-at="2020-05-15T09:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- maiho.selenium.DynamicTable -->
+      </class> <!-- maiho.selenium.iFrameTest -->
       <class name="maiho.selenium.guru99LoginTest">
-        <test-method status="PASS" signature="resetTest()[pri:0, instance:maiho.selenium.guru99LoginTest@617faa95]" name="resetTest" duration-ms="438" started-at="2020-05-15T09:11:45Z" finished-at="2020-05-15T09:11:45Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:maiho.selenium.guru99LoginTest@3532ec19]" name="beforeTest" is-config="true" duration-ms="4951" started-at="2020-05-20T07:10:00Z" finished-at="2020-05-20T07:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="resetTest()[pri:0, instance:maiho.selenium.guru99LoginTest@3532ec19]" name="resetTest" duration-ms="6889" started-at="2020-05-20T07:10:04Z" finished-at="2020-05-20T07:10:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetTest -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:maiho.selenium.guru99LoginTest@617faa95]" name="loginTest" duration-ms="3825" started-at="2020-05-15T09:11:45Z" finished-at="2020-05-15T09:11:49Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:maiho.selenium.guru99LoginTest@3532ec19]" name="loginTest" duration-ms="3640" started-at="2020-05-20T07:10:33Z" finished-at="2020-05-20T07:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="verifyMangeID()[pri:2, instance:maiho.selenium.guru99LoginTest@617faa95]" name="verifyMangeID" duration-ms="39" started-at="2020-05-15T09:11:49Z" finished-at="2020-05-15T09:11:49Z">
+        <test-method status="PASS" signature="verifyMangeID()[pri:2, instance:maiho.selenium.guru99LoginTest@3532ec19]" name="verifyMangeID" duration-ms="67" started-at="2020-05-20T07:10:37Z" finished-at="2020-05-20T07:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMangeID -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.guru99LoginTest@3532ec19]" name="afterTest" is-config="true" duration-ms="136" started-at="2020-05-20T07:10:37Z" finished-at="2020-05-20T07:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- maiho.selenium.guru99LoginTest -->
+      <class name="maiho.selenium.DynamicTableTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:maiho.selenium.DynamicTableTest@26653222]" name="beforeTest" is-config="true" duration-ms="4819" started-at="2020-05-20T07:10:00Z" finished-at="2020-05-20T07:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:maiho.selenium.DynamicTableTest@26653222]" name="testEasy" duration-ms="5343" started-at="2020-05-20T07:10:04Z" finished-at="2020-05-20T07:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="maxValueCurrentPrice()[pri:1, instance:maiho.selenium.DynamicTableTest@26653222]" name="maxValueCurrentPrice" duration-ms="2056" started-at="2020-05-20T07:10:33Z" finished-at="2020-05-20T07:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxValueCurrentPrice -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.DynamicTableTest@26653222]" name="afterTest" is-config="true" duration-ms="192" started-at="2020-05-20T07:10:35Z" finished-at="2020-05-20T07:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- maiho.selenium.DynamicTableTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
