@@ -20,17 +20,14 @@ public abstract class BaseTest {
 	@Parameters("browser")
 	public void beforeTest(String browser) {
 		System.out.println("beforeTest is called");
-		switch (browser) {
-		case "Firefox":
+		if (browser.contentEquals("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", "/Users/mba0298p/Documents/Software/Selenium/geckodriver");
 			driver = new FirefoxDriver();
-			break;
-		case "Chrome":
+		} else if (browser.contentEquals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "/Users/mba0298p/Documents/Software/Selenium/chromedriver");
 			driver = new ChromeDriver();
-			break;
-		default:
-			break;
+		} else {
+			driver = null;
 		}
 
 		if (driver != null) {
@@ -52,6 +49,6 @@ public abstract class BaseTest {
 	public WebDriver getWebdriver() {
 		return driver;
 	}
-	
+
 	public abstract void setDriver(WebDriver driver);
 }
