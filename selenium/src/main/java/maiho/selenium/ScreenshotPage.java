@@ -1,5 +1,6 @@
 package maiho.selenium;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
@@ -15,6 +16,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.comparison.ImageDiff;
+import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class ScreenshotPage extends BasePage {
@@ -52,6 +55,20 @@ public class ScreenshotPage extends BasePage {
 		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000))
 				.takeScreenshot(driver, element);
 		ImageIO.write(screenshot.getImage(), "jpg", new File(filePath));
+	}
+
+	public boolean compare2Image(WebDriver driver, String filePath)
+			throws IOException {
+		Screenshot screenshot = new AShot().takeScreenshot(driver);
+		
+		BufferedImage expectedImage = ImageIO.read(new File(filePath));
+		
+		BufferedImage actualImage = screenshot.getImage();
+		
+		ImageDiffer differ = new ImageDiffer();
+		ImageDiff  diff = differ.makeDiff(expectedImage, actualImage);
+		
+		return diff.hasDiff();
 	}
 
 	public WebElement getBaroneElement() {

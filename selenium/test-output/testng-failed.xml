@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="10" name="screenshots(failed)" parallel="classes">
+    <parameter name="destFolderPath" value="/Users/mba0298p/Documents/AsianTech/Tool/Selenium/Advanceted/PIC/Screenshot"/>
+    <parameter name="srcFolderPath" value="/Users/mba0298p/Documents/AsianTech/Tool/Selenium/Advanceted/PIC/src"/>
     <classes>
       <class name="maiho.selenium.ScreenShotsTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="elementScrShotTestByAshot"/>
           <include name="afterTest"/>
+          <include name="compageImageTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- maiho.selenium.ScreenShotsTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- screenshots(failed) -->
+</suite> <!-- Failed suite [Suite] -->

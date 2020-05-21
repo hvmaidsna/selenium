@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8578" started-at="2020-05-20T10:28:50Z" finished-at="2020-05-20T10:28:59Z">
+  <suite name="Suite" duration-ms="10537" started-at="2020-05-21T10:07:57Z" finished-at="2020-05-21T10:08:08Z">
     <groups>
     </groups>
-    <test name="screenshots" duration-ms="8578" started-at="2020-05-20T10:28:50Z" finished-at="2020-05-20T10:28:59Z">
+    <test name="screenshots" duration-ms="10537" started-at="2020-05-21T10:07:57Z" finished-at="2020-05-21T10:08:08Z">
       <class name="maiho.selenium.ScreenShotsTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:maiho.selenium.ScreenShotsTest@6f7fd0e6]" name="beforeTest" is-config="true" duration-ms="3124" started-at="2020-05-20T10:28:50Z" finished-at="2020-05-20T10:28:53Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:maiho.selenium.ScreenShotsTest@6f7fd0e6]" name="beforeTest" is-config="true" duration-ms="4162" started-at="2020-05-21T10:07:57Z" finished-at="2020-05-21T10:08:02Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="elementScrShotTestByAshot(java.lang.String, java.lang.String)[pri:0, instance:maiho.selenium.ScreenShotsTest@6f7fd0e6]" name="elementScrShotTestByAshot" duration-ms="5311" started-at="2020-05-20T10:28:53Z" finished-at="2020-05-20T10:28:59Z">
+        <test-method status="PASS" signature="screenShotTest(java.lang.String, java.lang.String)[pri:0, instance:maiho.selenium.ScreenShotsTest@6f7fd0e6]" name="screenShotTest" duration-ms="6192" started-at="2020-05-21T10:08:02Z" finished-at="2020-05-21T10:08:08Z">
           <params>
             <param index="0">
               <value>
@@ -33,8 +33,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elementScrShotTestByAshot -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.ScreenShotsTest@6f7fd0e6]" name="afterTest" is-config="true" duration-ms="115" started-at="2020-05-20T10:28:59Z" finished-at="2020-05-20T10:28:59Z">
+        </test-method> <!-- screenShotTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maiho.selenium.ScreenShotsTest@6f7fd0e6]" name="afterTest" is-config="true" duration-ms="154" started-at="2020-05-21T10:08:08Z" finished-at="2020-05-21T10:08:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

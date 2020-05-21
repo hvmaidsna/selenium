@@ -9,8 +9,8 @@
       <class name="maiho.selenium.ScreenShotsTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="elementScrShotTestByAshot" invocation-numbers="0"/>
           <include name="afterTest"/>
+          <include name="compageImageTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- maiho.selenium.ScreenShotsTest -->
     </classes>
